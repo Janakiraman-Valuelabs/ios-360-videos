@@ -18,7 +18,7 @@ let package = Package(
         .testTarget(
             name: "NYT360VideoTests",
             dependencies: ["NYT360Video"],
-            path: "Tests/NYT360Video Tests"),
+            path: "Tests/NYT360VideoTests"),
     ]
 )
 
