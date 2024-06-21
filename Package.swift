@@ -3,21 +3,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "ios-360-videos",
+    name: "NYT360Video",
     products: [
         .library(
-            name: "ios-360-videos",
-            targets: ["ios-360-videos"]),
+            name: "NYT360Video",
+            targets: ["NYT360Video"]),
     ],
   dependencies: [],
     targets: [
         .target(
             name: "ios-360-videos",
 	    dependencies: [],
-            path: "Sources/ios-360-videos"),
+            path: "Sources/NYT360Video"),
         .testTarget(
-            name: "ios-360-videosTests",
-            dependencies: ["ios-360-videos"],
-            path: "Tests/ios-360-videosTests"),
+            name: "NYT360VideoTests",
+            dependencies: ["NYT360Video"],
+            path: "Tests/NYT360Video Tests"),
     ]
 )
+
+
