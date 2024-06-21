@@ -12,9 +12,12 @@ let package = Package(
   dependencies: [],
     targets: [
         .target(
-            name: "ios-360-videos"),
+            name: "ios-360-videos",
+	    dependencies: [],
+            path: "Sources/NYT360Video"),
         .testTarget(
             name: "ios-360-videosTests",
-            dependencies: ["ios-360-videos"]),
+            dependencies: ["ios-360-videos"],
+            path: "Tests/NYT360VideoTests"),
     ]
 )
