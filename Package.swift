@@ -12,7 +12,7 @@ let package = Package(
   dependencies: [],
     targets: [
         .target(
-            name: "ios-360-videos",
+            name: "NYT360Video",
 	    dependencies: [],
             path: "Sources/NYT360Video"),
         .testTarget(
